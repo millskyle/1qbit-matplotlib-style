@@ -35,3 +35,5 @@ axs[1].set_xlabel("horizontal axis")
 plt.tight_layout()
 fig.show()
 ```
+
+![example](https://raw.githubusercontent.com/millskyle/1qbit-matplotlib-style/master/example.png)
