@@ -1,5 +1,7 @@
 # 1qbit-matplotlib-style
-Matplotlib style file following 1qbit's brand policies
+Matplotlib style file following 1qbit's brand policies.
+
+_Note that this is nowhere near complete.  There are plot types that are not accounted for.  Please feel free to make a pull request with updates._
 
 
 ### Use:
