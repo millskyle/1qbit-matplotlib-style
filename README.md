@@ -10,7 +10,7 @@ Install this package, e.g.
 pip install -e ./
 ```
 
-Import the `plot1qbit` package when you plot.
+Import the `plot1qbit` package prior to plotting.
 
 
 ### Example:
