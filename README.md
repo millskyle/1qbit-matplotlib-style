@@ -5,13 +5,12 @@ _Note that this is nowhere near complete.  There are plot types that are not acc
 
 
 ### Use:
-- Download the file 1qbit.mplstyle.  Put it somewhere.
-- Add
-``` python
-import matplotlib.pyplot as plt
-plt.style.use('~/1qbit.mplstyle')
+Install this package, e.g. 
+```bash
+pip install -e ./
 ```
-to the top of your plotting scripts.
+
+Import the `plot1qbit` package when you plot.
 
 
 ### Example:
@@ -19,8 +18,7 @@ to the top of your plotting scripts.
 ```python 
 import numpy as np
 import matplotlib.pyplot as plt
-plt.style.use('~/1qbit.mplstyle')
-
+import plot1qbit
 
 
 fig, axs = plt.subplots(1,2,figsize=(10,5))
