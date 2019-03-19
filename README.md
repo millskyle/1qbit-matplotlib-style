@@ -7,7 +7,7 @@ _Note that this is nowhere near complete.  There are plot types that are not acc
 ### Use:
 Install this package, e.g. 
 ```bash
-pip install -e ./
+pip install plot1qbit
 ```
 
 Import the `plot1qbit` package prior to plotting.
