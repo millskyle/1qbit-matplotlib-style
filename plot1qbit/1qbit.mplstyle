@@ -8,12 +8,12 @@ patch.facecolor : 00aeef
 patch.edgecolor : 1c2b39
 
 font.family : sans-serif
-font.size : 12.0
-font.sans-serif : BrandonText-Regular.otf, Brandon Text, DejaVu Sans
+font.size : 10.0
+font.sans-serif : BrandonText-Regular.otf, Brandon Text, DejaVu Sans, Arial, Helvetica
 #, DejaVu Sans, Lucida Grande, Verdana, Geneva, Lucid, Arial, Helvetica, Avant Garde, sans-serif
 font.weight : regular
 
-axes.titlesize: large
+axes.titlesize: x-large
 axes.titleweight: medium
 
 axes.prop_cycle  : cycler('color', '00aeef,1c2b39,0075bc,72808a,67cdf2,003262')
@@ -27,6 +27,7 @@ axes.ymargin : 0.05
 xtick.color : 1c2b39
 ytick.color : 1c2b39
 axes.labelcolor : 1c2b39
+axes.labelsize : large
 #figure.facecolor : c5ccd1
 
 image.cmap : Blues
