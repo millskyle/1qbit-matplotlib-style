@@ -4,16 +4,24 @@ Matplotlib style file following 1qbit's brand policies.
 _Note that this is nowhere near complete.  There are plot types that are not accounted for.  Please feel free to make a pull request with updates._
 
 
-### Use:
+## Use:
 Install this package, e.g. 
 ```bash
 pip install plot1qbit
 ```
 
-Import the `plot1qbit` package prior to plotting.
+Import the `plot1qbit` package prior to plotting, but after importing matplotlib.
+
+### Font
+
+1QBit's brand font is Brandon Text.  This is a commercial font and thus cannot be distributed.  If you have Brandon Text installed on your computer through some other means, this package will pick it up and use it.  You may need to delete your matplotlib cache first though:
+```bash 
+rm -r $HOME/.cache/matplotlib
+```
 
 
-### Example:
+
+## Example:
 
 ```python 
 import numpy as np
