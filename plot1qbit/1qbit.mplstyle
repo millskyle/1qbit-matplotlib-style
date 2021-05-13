@@ -10,11 +10,10 @@ patch.edgecolor : 1c2b39
 font.family : sans-serif
 font.size : 10.0
 font.sans-serif : BrandonText-Regular.otf, Brandon Text, DejaVu Sans, Arial, Helvetica
-#, DejaVu Sans, Lucida Grande, Verdana, Geneva, Lucid, Arial, Helvetica, Avant Garde, sans-serif
 font.weight : regular
 
 axes.titlesize: x-large
-axes.titleweight: medium
+axes.titleweight: normal
 
 axes.prop_cycle  : cycler('color', '00aeef,1c2b39,0075bc,72808a,67cdf2,003262')
 axes.facecolor   : e6eef4
