@@ -1,5 +1,5 @@
 # 1qbit-matplotlib-style
-Matplotlib style file following 1qbit's brand policies.
+Matplotlib style file following [1QBit](www.1qbit.com)'s brand policies.
 
 _Note that this is nowhere near complete.  There are plot types that are not accounted for.  Please feel free to make a pull request with updates._
 
@@ -18,6 +18,7 @@ Import the `plot1qbit` package prior to plotting, but after importing matplotlib
 ```bash 
 rm -r $HOME/.cache/matplotlib
 ```
+If you're an employee of 1QBit, a zip file containing these fonts can be found in the company Google Drive.
 
 
 
