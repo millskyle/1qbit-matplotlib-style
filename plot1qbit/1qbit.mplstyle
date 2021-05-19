@@ -1,6 +1,6 @@
 # 1QBit Matplotlib style file
 
-lines.linewidth : 1.2
+lines.linewidth : 1.5
 lines.linestyle : -
 
 
@@ -8,7 +8,7 @@ patch.facecolor : 00aeef
 patch.edgecolor : 1c2b39
 
 font.family : sans-serif
-font.size : 10.0
+font.size : 12
 font.sans-serif : BrandonText-Regular.otf, Brandon Text, DejaVu Sans, Arial, Helvetica
 font.weight : regular
 
@@ -31,21 +31,24 @@ axes.labelsize : large
 
 image.cmap : Blues
 
+lines.markersize : 5
 
-legend.fancybox : True
+legend.fancybox : False
 legend.facecolor: e6eef4
-#legend.facealpha: 0.9
+legend.edgecolor: 72808a
 legend.framealpha: 0.9
+legend.scatterpoints: 3
 
 grid.color : 72808a
 grid.linestyle : : 
 grid.linewidth : 0.25
 grid.alpha : 1.0
 
+mathtext.default: it
+mathtext.fontset: dejavusans
 
 
 savefig.facecolor   : f5fcff
 savefig.dpi : 300
-
 
 
