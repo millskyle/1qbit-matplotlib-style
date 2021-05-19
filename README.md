@@ -44,10 +44,6 @@ import matplotlib.pyplot as plt
 import plot1qbit
 ```
 
-    /home/kmills/git/1qbit-matplotlib-style/plot1qbit/initiate.py:9: MatplotlibDeprecationWarning: 
-    The createFontList function was deprecated in Matplotlib 3.2 and will be removed two minor releases later. Use FontManager.addfont instead.
-      font_list = font_manager.createFontList(font_files)
-
 
 
 ```python
