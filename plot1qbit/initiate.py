@@ -2,6 +2,8 @@ import matplotlib.pyplot as plt
 from matplotlib import font_manager, rcParams
 import os
 import matplotlib
+import numpy as np
+
 
 here=os.path.abspath(__file__).replace("initiate.py","")
 
@@ -33,5 +35,14 @@ newc = dict(
 
 for key in newc.keys():
     matplotlib.colors.ColorConverter.colors[key] = newc[key]
+
+
+#Add a better "flag" colormap:
+flag5 = matplotlib.colors.LinearSegmentedColormap.from_list("", ["white", "blue", "C4"]*5 )
+flag10 = matplotlib.colors.LinearSegmentedColormap.from_list("", ["white", "blue", "C4"]*10 )
+flag25 = matplotlib.colors.LinearSegmentedColormap.from_list("", ["white", "blue", "C4"]*25 )
+plt.register_cmap('1qbit25', flag25)
+plt.register_cmap('1qbit10', flag10)
+plt.register_cmap('1qbit5', flag5)
 
 
