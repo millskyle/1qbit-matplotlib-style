@@ -199,15 +199,17 @@ class Report(object):
 						var $container = $('.tabcollection');
 						$container.masonry('reloadItems');
 						$container.masonry();
-					},500);
+					},100);
+
+
 				}
             $(document).ready(function(){
                 $('.collectionname').click(function() {
-                    $(this).siblings().toggle('slide');
+                    $(this).siblings().toggle(50);
 					masonryUpdate();
                 });
                 $('.tabname').click(function() {
-                    $(this).siblings().toggle('slide');
+                    $(this).siblings().toggle(50);
 					masonryUpdate();
                 });
                 $('.tabcollection').masonry({
