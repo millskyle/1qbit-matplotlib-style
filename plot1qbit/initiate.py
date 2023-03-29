@@ -3,6 +3,12 @@ from matplotlib import font_manager, rcParams
 import os
 import matplotlib
 import numpy as np
+from cycler import cycler
+
+
+def rainbow():
+    rainbow_cycler = cycler(color=['red','orange','yellow','green','blue','magenta','purple', 'violet', 'darkblue','cyan'])
+    plt.rc('axes', prop_cycle=rainbow_cycler)
 
 
 here=os.path.abspath(__file__).replace("initiate.py","")
@@ -44,5 +50,7 @@ flag25 = matplotlib.colors.LinearSegmentedColormap.from_list("", ["white", "blue
 plt.register_cmap('1qbit25', flag25)
 plt.register_cmap('1qbit10', flag10)
 plt.register_cmap('1qbit5', flag5)
+
+
 
 
