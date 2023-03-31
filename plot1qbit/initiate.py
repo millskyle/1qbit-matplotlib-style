@@ -10,6 +10,14 @@ def rainbow():
     rainbow_cycler = cycler(color=['red','orange','yellow','green','blue','magenta','purple', 'violet', 'darkblue','cyan'])
     plt.rc('axes', prop_cycle=rainbow_cycler)
 
+def blue():
+    blue_cycler= cycler(color=['00aeef','1c2b39','0075bc','72808a','67cdf2','003262'])
+    plt.rc('axes', prop_cycle=blue_cycler)
+
+blues = blue
+default = blue
+1qbit = blue
+
 
 here=os.path.abspath(__file__).replace("initiate.py","")
 
