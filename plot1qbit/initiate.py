@@ -16,7 +16,7 @@ def blue():
 
 blues = blue
 default = blue
-1qbit = blue
+qbit = blue
 
 
 here=os.path.abspath(__file__).replace("initiate.py","")
