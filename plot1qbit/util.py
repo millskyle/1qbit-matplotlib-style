@@ -1,5 +1,48 @@
 import matplotlib.pyplot as plt
 import gif
+import numpy as np
+
+class ImageGrid():
+
+    """Simple method to hold an NxM grid of sx x sy images.
+
+    Example:
+
+            N=5
+            M=4
+
+            digits_img = ImgArray(N, M, 8, 8)
+
+            counter = 0
+
+            for i in range(N):
+                for j in range(M):
+                    digits_img.insert(i, j, np.ones((8,8))*counter)
+                    counter += 1
+
+            plt.imshow(digits_img.img)
+
+    """
+
+    def __init__(self, N, M, sx, sy, negative_space_value=np.nan):
+        self.Nx = N
+        self.Ny = M
+        self.sx = sx
+        self.sy = sy
+
+        self._img = np.zeros((N*sx + N + 1, M*sy + M + 1)) + negative_space_value
+
+    def insert(self, i, j, data):
+        assert data.shape[0] == self.sx, f"Unexpected width. Got {data.shape[0]}. Expected {self.sx}."
+        assert data.shape[1] == self.sy, f"Unexpected height. Got {data.shape[1]}. Expected {self.sy}."
+        self._img[1+i*(self.sx+1):1+i*(self.sx+1)+self.sx, 1+j*(self.sy+1):1+j*(self.sy+1)+self.sy] = data
+
+    def get(self):
+        return self._img
+
+    @property
+    def img(self):
+        return self.get()
 
 
 
