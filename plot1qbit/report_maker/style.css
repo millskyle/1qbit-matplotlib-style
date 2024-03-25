@@ -1,0 +1,96 @@
+body {
+    background-color:#F5FCFF;
+    font-family: "Brandon", "Brandon Text", sans-serif;
+    margin:auto;
+}
+
+hr {
+    width:50%;
+    margin:auto;
+    margin-top:20px;
+    margin-bottom:20px;
+}
+
+
+
+h1,h2,h3 {
+    text-align:center;
+    font-weight: normal;
+    margin: 0;
+    padding: 10px;
+}
+
+tr:nth-child(even){background-color: #E6EEF4}
+tr:nth-child(odd){background-color: #E1EFF9;}
+td {
+    padding:5px;
+    padding-left:10px;
+    padding-right:10px;
+}
+
+table {
+    margin-left:auto;
+    margin-right:auto
+}
+
+.tabcollection {
+   margin:auto;
+}
+
+.tabcollectionparent{
+    margin: 10px;
+    background-color: #E7EFF5;
+    border: 2px solid #79858E;
+}
+
+.collectionname {
+    background-color: #E7EFF5;
+}
+
+.singletab {
+    min-width:300px;
+    border: solid 2px #5C97CF;
+    border-radius: 5px;
+    background-color: #f5fcff;
+    margin: 5px;
+ /*   display:inline-block; */
+}
+
+.firsttab {
+    float: left;
+}
+.subsequenttab {
+}
+
+.onethird {
+    max-width: 700px;
+}
+.fullwidth {
+    max-width: 400px;
+}
+
+.plotcontainer {
+    padding:3px;
+    margin: auto;
+}
+
+.grow { transition: all .2s ease-in-out; }
+.grow:hover { transform: scale(1.5); display: block;}
+
+
+.textline {
+    max-width: 30%;
+    padding: 3px;
+    margin:auto;
+}
+
+.center {
+    text-align: center;
+}
+
+.title {
+    padding: 3px;
+    font-size: 200%;
+}
+
+
